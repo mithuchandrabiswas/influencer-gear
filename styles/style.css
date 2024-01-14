@@ -24,7 +24,7 @@
 .btn-primary {
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     padding: 10px 24px;
     border-radius: 41px;
@@ -54,7 +54,7 @@ header {}
     color: #3A3A3A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 1.5px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -78,7 +78,7 @@ header {}
     color: #3A3A3A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -102,7 +102,7 @@ header {}
     color: #3A3A3A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 52px;
+    font-size: 3.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: 70px;
@@ -113,7 +113,7 @@ header {}
     color: #3A3A3A;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     margin: 20px 0;
 }
@@ -150,7 +150,7 @@ header {}
 .collection-section .collection-content h3.collection-title {
     color: #3A3A3A;
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: 70px;
@@ -177,7 +177,7 @@ header {}
     color: var(--Text-Gray-900, #18191F);
     font-feature-settings: 'liga' off;
     font-family: Poppins;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
@@ -187,7 +187,7 @@ header {}
 .collection-section .collection-items .item-card h3.card-price {
     color: rgba(0, 0, 0, 0.87);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 150%;
     margin: 10px 0;
@@ -204,7 +204,7 @@ i.fa-star-half {
 .collection-section .collection-items .item-card .card-star span {
     color: var(--gray-80, #5E6366);
     font-family: Roboto;
-    font-size: 14px;
+    font-size: .87rem;
     font-style: normal;
     font-weight: 700;
     line-height: 22px;
@@ -216,7 +216,7 @@ i.fa-star-half {
     width: 200px;
     color: var(--Gray-50, #787885);
     font-family: Inter;
-    font-size: 14px;
+    font-size: .87rem;
     font-style: normal;
     font-weight: 700;
     line-height: 143%;
@@ -363,12 +363,12 @@ i.fa-star-half {
         text-align: center;
     }
     .features-section .features-content p.features-description {
-        width: auto;
+        /* width: auto; */
         font-size: 1rem;
     }
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:768px) {
     .header-section nav {
         flex-direction: column;
     }
